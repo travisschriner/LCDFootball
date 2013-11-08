@@ -19,6 +19,7 @@ FUNCTIONS
 
 unsigned char initPlayer();
   *Initializes player to starting position on board.
+  
 
 
 void printPlayer(unsigned char player);
@@ -27,16 +28,18 @@ void printPlayer(unsigned char player);
 
 
 unsigned char movePlayer(unsigned char player, unsigned char direction);
-  *Given a player's current position and a direction, returns an updated player position.
-  *clears the screen, updates the players position checking edge boundary, then updates the
-    screen with the new position. 
+  * Given a player's current position and a direction, returns an updated player position.
+  * clears the screen, updates the players position checking edge boundary, then updates the
+    screen with the new position
 
 
 char didPlayerWin(unsigned char player);
-  *Returns true if the position passed in is the winning game position.
-  *checks gameWon condition, then either does nothing if game is not won,
+  * Returns true if the position passed in is the winning game position.
+  * checks gameWon condition, then either does nothing if game is not won,
     or implements gameWon logic which clears the screen, then prints a lovely
     message on your very own LCD
+  
+
     
 LISCENCING
 =================================
