@@ -18,9 +18,8 @@ FUNCTIONS
 =================================
 
 unsigned char initPlayer();
-  *Initializes player to starting position on board.
+  * Initializes player to starting position on board.
   
-
 
 void printPlayer(unsigned char player);
   * Prints the player marker (*) at the player location passed in.
